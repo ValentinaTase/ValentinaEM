@@ -1,0 +1,57 @@
+body {
+  position: relative;
+  padding: 8px;
+  padding-top: 60px;
+}
+
+.container {
+  border: 1px solid #000; 
+  padding: 5px;
+  position: relative;
+}
+
+.abs-nav {
+position: absolute;
+background-color: blue;
+right: 0;
+bottom: 0;
+}
+
+.abs-nav a{
+  color: brown;
+}
+
+.legend {
+  position: absolute;
+  top: -10px; 
+  left: 25px;
+  background-color:grey;
+  border: 1px solid red;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.formula-sup {
+  font-size: 10px;
+  position: relative;
+  top: -5px;
+}
+
+.sticky-nav {
+  background-color: green;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+ }
+ 
+ .sticky-nav ul {
+   list-style-type: none;
+   padding-right: 25px;
+ }
+ 
+ .sticky-nav li {
+   display: inline;
+ }
+ 
+ .sticky-nav a {
+   color: white;
+ }
