@@ -375,9 +375,17 @@ a {
 
 .nav-main li {
   display: inline-block;
+  margin: 0 5px;
 }
 
 .nav-main a {
   text-transform: uppercase;
   padding: 10px;
+  display: block;
+  border-radius: 27px;
+}
+
+.nav-main a:hover {
+  background-color: #FF6B6B;
+  color: white;
 }
