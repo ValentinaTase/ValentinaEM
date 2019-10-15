@@ -367,10 +367,69 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: 'robotobold';
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoitalic';
+  src: url('../fonts/../Fonts/roboto-italic-webfont.woff2') format('woff2'),
+       url('../fonts/../Fonts/roboto-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'julius_sans_oneregular';
+  src: url('../fonts/juliussansone-regular-webfont.woff2') format('woff2'),
+       url('../fonts/juliussansone-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* cod: */
 
 .body {
   color: #707070;
+}
+
+.comtainer {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header {
+  margin-bottom: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+}
+
+.nav-secondary {
+  text-align: center;
+}
+
+.nav-secondary ul {
+  display: inline-block;
 }
 
 .nav-main li {
@@ -383,9 +442,27 @@ a {
   padding: 10px;
   display: block;
   border-radius: 27px;
+  font-size: 20px;
 }
 
+.nav-main a:hover,
 .nav-main a:hover {
   background-color: #FF6B6B;
   color: white;
 }
+
+.nav-secondary li {
+  display: inline-block;
+  margin: 0 5px; 
+}
+
+.nav-secondary a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.nav-secondary a:hover,
+.nav-secondary a:hover {
+  color: #FF6B6B;
+}
+
