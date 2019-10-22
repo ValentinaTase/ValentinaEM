@@ -1,8 +1,18 @@
 /* add code here */
-
+#header h1 {
+  color: green;
+  text-decoration: underline;
+  padding: 5px;
+}
 
 
 /* add code here */
+
+p {
+  font-size: 5px;
+  font-style: italic;
+  color: purple;
+}
 
 
 h1 {

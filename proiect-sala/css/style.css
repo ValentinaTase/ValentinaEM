@@ -466,3 +466,33 @@ a {
   color: #FF6B6B;
 }
 
+.carousel .carousel {
+  background: url('../images/banners/banner02.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+content .carousel .carousel {
+  min-height: 570px;
+  color: white;
+  position: relative;
+}
+
+.content .carousel h1 {
+  font-family: 'robotobold';
+  font-size: 75px;
+  margin: 0 0 10px 0;
+  float: right;
+}
+
+.content .carousel .tagline {
+  clear: both;
+  text-align: right;  
+}
+
+.content .carousel .small-print {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+
